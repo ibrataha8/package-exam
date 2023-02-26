@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="remplirConsole()">
+    <h2>Commander des consoles</h2>
+    <label><b>Console</b></label>
+    <select>
+        <option>Choisir un console</option>
+    </select><br><br>
+    <label>Quiantité</label>
+    <input type="number" id="quiantite"><br><br>
+    <button id="btn1">Ajouter au panier</button>
+    <h2>Commander des consoles</h2>
+    <table>
+        <th>Réference</th>
+        <th>Quiantité</th>
+        <th>Image</th>
+        <th>Action</th>
+    </table><br><br>
+    <span>Total HT :<span id="res1"> </span><br><br>
+    <span id="res1">Total TTC :</span>
+    <button onclick="valid()">valid</button>
+<script src="scr.js"></script>
+</body>
+</html>

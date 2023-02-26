@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Calcul de frais de transport de colis </legend>
+        <form>
+            <table>
+                <tr>
+                    <td>N de colis :</td>
+                    <td><input type="text" id="nco"></td>
+                </tr>
+                <tr>
+                    <td>Mode de transport:</td>
+                    <td><input type="radio" name="tran">Express</td>
+                    <td><input type="radio" name="tran">Normal</td>
+                </tr>
+                <tr>
+                    <td>Distance :</td>
+                    <td><input type="text" id="dis">  KM</td>
+                </tr>
+                <tr>
+                    <td>Pois :</td>
+                    <td><input type="text" id="poid">  KG</td>
+                </tr>
+                <tr>
+                    <td>Cout Total :</td>
+                    <td><input type="text" id="res"></td>
+                </tr>
+            </table>
+        </form>
+        <button id="btn">Calculer</button>
+        <button onclick="calcul()">Effacer</button>
+    </fieldset>
+    <script src="sc.js"></script>
+</body>
+</html>
